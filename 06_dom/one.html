@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        .bg-black{
+            background-color: #212121;
+            color: #fff;
+        }
+    </style>
+</head>
+<body class="bg-black">
+    <div>
+        <h1 id="title" >DOM learning on Chai aur code </h1>
+        <p> this is a test paragraph</p>
+        <img src="./one_htm_document_breakdown.excalidraw.svg" alt="this html page brek-down" style="height: 700px; width: 700px;">
+    </div>
+</body>
+<script>
+    //run this file in browser
+    console.log(" this refrence : ",this);
+    console.log("window object : ",window);
+    console.log("window.document object : ",window.document)
+    console.log("document object also directly acessable: ",document)
+
+    console.log("currnt url : ",document.URL)
+    console.log(document.getElementById("title"))
+    console.log(document.links)
+
+</script>
+</html>
