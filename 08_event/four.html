@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body >
+    <h1>Chai aur JS</h1>
+    <button id="start">Start</button>
+    <button id="stop">Stop</button>
+</body>
+<script>
+    const randColoerCode = (num)=>{
+        return Math.floor(Math.random()*num);
+    }
+    const body = document.querySelector('body');
+
+    const sayDate = function(){
+        let colorData = `rgb(${randColoerCode(255)} ${randColoerCode(255)} ${randColoerCode(255)})`;
+        console.log("coler changed",colorData);
+        body.style.backgroundColor = colorData;
+    }
+    const start = document.getElementById('start');
+
+    
+    start.addEventListener('click',(e)=>{
+        intervalId = setInterval(sayDate,1000);
+    });
+
+    const stop = document.getElementById('stop');
+
+    stop.addEventListener('click',(e)=>{
+        if(intervalId){
+            clearInterval(intervalId);
+        }
+    });
+</script>
+</html>
