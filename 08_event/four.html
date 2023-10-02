@@ -25,7 +25,9 @@
 
     
     start.addEventListener('click',(e)=>{
-        intervalId = setInterval(sayDate,1000);
+        if(!intervalId){
+            intervalId = setInterval(sayDate,1000);
+        }
     });
 
     const stop = document.getElementById('stop');
@@ -33,6 +35,7 @@
     stop.addEventListener('click',(e)=>{
         if(intervalId){
             clearInterval(intervalId);
+            intervalId=null;
         }
     });
 </script>
