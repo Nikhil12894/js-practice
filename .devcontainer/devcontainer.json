@@ -20,8 +20,8 @@
 				"alphabotsec.vscode-eclipse-keybindings"
 			],
 			"settings": {
-				"editor.fontSize": 18,
-				"terminal.integrated.fontSize": 18,
+				"editor.fontSize": 20,
+				"terminal.integrated.fontSize": 20,
 				"editor.wordWrap": "on",
 				"editor.formatOnSave": true
 			}
