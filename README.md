@@ -33,3 +33,5 @@
 # JS fetch api flow
 
 ![JS fetch api flow](./09_advance_one/js_fetch_api_flow.png)
+
+## [Notes](./10_classes_and_opp/readme.md)
