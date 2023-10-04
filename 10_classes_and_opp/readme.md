@@ -115,3 +115,30 @@ console.log(counter.getCount()); // Output: 1
 ```
 
 5. Polymorphism: Polymorphism is a fundamental concept in OOP that allows objects of different classes to be treated as objects of a common base class. In JavaScript, polymorphism is achieved through method overriding and dynamic dispatch.
+
+## Object
+
+Objects are fundamental data structures used to store and manipulate data. They are collections of key-value pairs where the keys are strings (or Symbols) and the values can be of any data type, including other objects. Objects can represent real-world entities and their properties and behaviors.
+
+- collection of properties and methods
+- toLowerCase
+
+## Why use OOP
+
+- Abstraction and Encapsulation
+- Code Reusability
+- Modularity and Maintainability
+- Organization and Readability
+- Reduced Complexity
+
+## Parts of OOP
+
+- Object literal
+- Constructor function
+- Prototypes
+- Classes
+- Instances (new, this)
+
+## 4 Pillars
+
+Abstraction, Encapsulation, Inheritance, Polymorphism.
