@@ -142,3 +142,5 @@ Objects are fundamental data structures used to store and manipulate data. They 
 ## 4 Pillars
 
 Abstraction, Encapsulation, Inheritance, Polymorphism.
+
+## [what is prototype in javaScript?](prototype.md)
