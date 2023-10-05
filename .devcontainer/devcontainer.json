@@ -17,13 +17,16 @@
 				"esbenp.prettier-vscode",
 				"vscode-icons-team.vscode-icons",
 				"wayou.vscode-todo-highlight",
-				"alphabotsec.vscode-eclipse-keybindings"
+				"alphabotsec.vscode-eclipse-keybindings",
+				"wesbos.theme-cobalt2",
+				"ritwickdey.LiveServer"
 			],
 			"settings": {
 				"editor.fontSize": 20,
 				"terminal.integrated.fontSize": 20,
 				"editor.wordWrap": "on",
-				"editor.formatOnSave": true
+				"editor.formatOnSave": true,
+				"workbench.colorTheme": "Cobalt2"
 			}
 		}
 	}
